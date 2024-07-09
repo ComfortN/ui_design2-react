@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+
+.navlists {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 15px; */
+    padding: 5px;
+    gap: 10em;
+}
+
+.navlists li {
+    list-style: none;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.price {
+    background-color: #f1e7c3;
+}
+
+.navicons {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+@media (max-width: 768px) {
+    .navlists {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
