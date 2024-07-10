@@ -1,9 +1,11 @@
 import './right.css'
+import Navbar from '../navbar/navbar'
 
 export default function Right() {
     return (
         <div className="right">
-            <div className="rightContainer">
+          <Navbar />
+            {/* <div className="rightContainer">
         
         <h1>Wood Candy Sofa</h1>
 
@@ -26,7 +28,8 @@ export default function Right() {
           </div>
           
         </div>
-      </div>
+      </div> */}
+      right
         </div>
     )
 }
