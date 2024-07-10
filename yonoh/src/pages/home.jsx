@@ -2,7 +2,7 @@ import './home.css'
 
 import Right from '../components/right/right'
 import Left from '../components/left/left'
-import Footer from '../components/footer/footer'
+// import Footer from '../components/footer/footer'
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
                 <Right />
                 <Left />
             </div>
-            <Footer />
+            {/* <Footer /> */}
             
         </div>
     )

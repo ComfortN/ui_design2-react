@@ -1,20 +1,21 @@
 import './right.css'
 import Navbar from '../navbar/navbar'
+import FooterRight from '../footer/footer'
 
 export default function Right() {
     return (
         <div className="right">
           <Navbar />
-            {/* <div className="rightContainer">
+            <div className="rightContainer">
         
         <h1>Wood Candy Sofa</h1>
 
 
         <div className="productInfo">
 
-          <p>Yonoh Creative Studio from Spain has won many
-            design awards such as iF and red dot.
-            Complexity and simplicity are not 
+          <p>Yonoh Creative Studio from Spain has won many<br/>
+            design awards such as iF and red dot.<br />
+            Complexity and simplicity are not <br />
             Yonoh's defination of design.
           </p>
 
@@ -28,8 +29,9 @@ export default function Right() {
           </div>
           
         </div>
-      </div> */}
-      right
+      </div>
+      <FooterRight />
+    
         </div>
     )
 }

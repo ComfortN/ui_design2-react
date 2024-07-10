@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.footerIcons {
+    display: flex;
+    gap: 3.5em;
+    color: #000;
+    /* size: 5px; */
+}
+
+/* .icon {
+     font-size: 1rem; 
+} */
+
+.arrowLeft {
+    font-size: 1.5rem;
+}
+
+
+.footerl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5%; */
+}
+
+
+.arrowLeft {
+    padding: 25px;
+}
+
+.addTocart{
+    padding: 25px;
+    background-color: #e7d07e;
+}

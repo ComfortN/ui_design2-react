@@ -2,5 +2,34 @@
     width: 100%;
     /* padding: 0 8%; */
     height: 100vh;
+    color: grey;
     
+}
+
+
+.rightContainer {
+    padding: 10%;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: black;
+}
+
+.productInfo {
+    width: 85%;
+    font-size: 1.5cap;
+}
+
+.prize {
+    color: black;
+    font-size: 2.2rem;
+    margin: 15px 0;
+}
+
+
+.buyNow{
+    background-color:#f1e7c3;
+    border: none;
+    padding: 10px 45px;
 }

@@ -1,38 +1,33 @@
 .navbar{
     display: flex;
-    /* justify-content: space-between; */
-
 }
-
-
-/* .navlists {
-    display: flex;
-    justify-content: space-between;
-
-}*/
 
 
 .navlist {
-    width: 30.33%;
-    
+    width: 33.3%;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
+
 
 .navlist:hover {
     background-color:#f1e7c3 ;
+    color: black;
 }
-
-/*
-
 
 
 .navicons {
     display: flex;
+    justify-content: end;
     align-items: center;
-    gap: 2em;
+    gap: 2.5em;
+    padding: 29px;
+    margin: 0 8%;
     
-} */
+} 
+
+
+/*
 
 
 @media (max-width: 300px) {
@@ -41,4 +36,4 @@
         gap: 10px;
     }
     
-}
+}*/
