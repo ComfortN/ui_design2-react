@@ -13,7 +13,7 @@ export default function Footer(params) {
                 <FaTwitter className= 'icon' />
                 <FaFacebookF className= 'icon' />
             </div>
-            <div className="arrowLeft">
+            <div className="arrowRight">
                 <HiArrowLongLeft className = "arrow" />
             </div>
            

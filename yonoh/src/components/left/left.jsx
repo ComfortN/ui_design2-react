@@ -13,7 +13,7 @@ export default function Left(params) {
                 </div>
 
                 <div className="sidetext">
-                    <span>01</span>/03
+                    <span><b>01</b></span>/03
                 </div>
             </div>
             <FooterLeft />

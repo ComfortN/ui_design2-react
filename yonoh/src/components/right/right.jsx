@@ -8,7 +8,7 @@ export default function Right() {
           <Navbar />
             <div className="rightContainer">
         
-        <h1>Wood Candy Sofa</h1>
+        <h1>Wood Candy<br/> Sofa</h1>
 
 
         <div className="productInfo">
