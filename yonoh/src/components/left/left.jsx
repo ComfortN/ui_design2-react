@@ -3,7 +3,7 @@ import Navleft from '../navbar/navleft'
 import FooterLeft from '../footer/fotterLeft'
 
 
-export default function Left(params) {
+export default function Left() {
     return (
         <div className="left">
             <Navleft />

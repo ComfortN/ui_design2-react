@@ -6,12 +6,12 @@ export default function Right() {
     return (
         <div className="right">
           <Navbar />
-            <div className="rightContainer">
+          <div className="rightContainer">
         
-        <h1>Wood Candy<br/> Sofa</h1>
+          <h1>Wood Candy<br/> Sofa</h1>
 
 
-        <div className="productInfo">
+          <div className="productInfo">
 
           <p>Yonoh Creative Studio from Spain has won many<br/>
             design awards such as iF and red dot.<br />

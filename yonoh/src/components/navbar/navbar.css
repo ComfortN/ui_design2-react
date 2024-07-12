@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+    height: 10%;
 }
 
 
@@ -27,13 +28,17 @@
 } 
 
 
-/*
 
 
-@media (max-width: 300px) {
+
+@media (max-width: 930px) {
     .navbar {
         flex-direction: column;
         gap: 10px;
     }
+    .navicons{
+        flex-direction: column;
+        gap: 10px;
+    }
     
-}*/
+}
