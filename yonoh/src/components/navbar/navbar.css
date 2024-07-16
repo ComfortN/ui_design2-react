@@ -33,12 +33,13 @@
 
 @media (max-width: 930px) {
     .navbar {
+        /* flex-direction: column; */
+        padding: 5px;
+        gap: 5px;
+    }
+    /* .navicons{
         flex-direction: column;
         gap: 10px;
-    }
-    .navicons{
-        flex-direction: column;
-        gap: 10px;
-    }
+    } */
     
 }

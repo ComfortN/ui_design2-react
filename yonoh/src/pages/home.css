@@ -13,13 +13,13 @@
 .home {
     width: 100%;
     /* height:  100vh; */
-    background: linear-gradient(
+    /* background: linear-gradient(
         to right,
         #fff 0%,
         #fff 50%,
         #f1e7c3 50%,
         #f1e7c3 0%
-    );
+    ); */
 }
 
 
@@ -31,7 +31,7 @@
 
 @media (max-width: 833px) {
     .home-wrapper {
-        
+        flex-direction: column;
     }
     
 }

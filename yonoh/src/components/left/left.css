@@ -1,12 +1,10 @@
 .left {
     width: 100%;
-    /* height: 100vh  ; */
     display: flex;
     flex-direction: column;
     position: relative;
     height: 100vh;
-    /* justify-content: space-between; */
-    /* background-color: #f1e7c3 ; */
+    background-color: #f1e7c3;
 }
 
 
@@ -34,13 +32,8 @@
 }
 
 .imgcouch {
-    /* grid-area: main; */
-    /* width: 100%;
-    height: 100%; */
     height: 600px;
-    /* object-fit: cover; */
     position: absolute;
-    /* right: 100px; */
     top: 0;
     bottom: 0;
     margin: auto;
@@ -50,4 +43,27 @@
 span {
     color: #000;
     font-size: 2em;
+}
+
+
+
+@media (max-width: 817px) {
+    span {
+        font-size: 1.5em;
+    }
+
+    .mainLeft {
+        flex-direction: column;
+    }
+
+    .imgcouch {
+        height: auto;
+        width: 80%;
+        left: 70px;
+    }
+
+    .sidetext {
+        font-size: 1em;
+        writing-mode: horizontal-tb;
+    }
 }
